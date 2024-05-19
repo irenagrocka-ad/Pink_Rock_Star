@@ -296,7 +296,7 @@ footer i {
     max-width: 100%;
   }
   .main-img {
-    max-width: 100%;
+    display: none;
   }
   .grid {
     grid-template-columns: 1fr;
