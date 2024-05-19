@@ -2,14 +2,17 @@
   max-width: 1600px;
   margin: 0 auto;
   background: linear-gradient(
-    340deg,
-    rgba(0, 0, 0, 0.93) 11.2%,
-    rgb(67, 67, 67) 78.9%
+    300deg,
+    rgba(4, 4, 4, 0.93) 75%,
+    rgb(8, 8, 8) 10%,
+    rgb(16, 16, 16) 5%,
+    rgb(28, 28, 28) 5%,
+    rgb(47, 47, 47) 5%
   );
 }
 
 header {
-  max-width: 1400px;
+  max-width: 1500px;
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
     url("../imiges/hero.jpg");
