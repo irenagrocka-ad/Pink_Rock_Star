@@ -1,31 +1,72 @@
-header {
-  max-width: 1200px;
+.container {
+  max-width: 1600px;
   margin: 0 auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
-    url("/imiges/hero.jpg");
+  background: linear-gradient(
+    340deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(67, 67, 67) 78.9%
+  );
+}
+header {
+  max-width: 1500px;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+    url("../imiges/hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-  padding: 60px 0;
+  padding: 260px 0;
   color: white;
 }
-h1 {
+header h1 {
   font-family: Playfair Display;
   font-size: 128px;
   font-style: normal;
   font-weight: 900;
   color: rgb(232, 2, 131);
 }
-h2 {
+header h2 {
   font-family: Roboto;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
 }
-h3 {
+header h3 {
   font-family: Roboto;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
+}
+header a {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(232, 2, 131);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+footer {
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+footer a {
+  font-family: Roboto;
+  font-size: 14px;
+  color: rgb(232, 2, 131);
+}
+@media (max-width: 900px) {
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
 }
