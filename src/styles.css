@@ -1,0 +1,31 @@
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+    url("/imiges/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 60px 0;
+  color: white;
+}
+h1 {
+  font-family: Playfair Display;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 900;
+  color: rgb(232, 2, 131);
+}
+h2 {
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
+h3 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
