@@ -50,6 +50,47 @@ header a {
   padding: 16px 32px;
   border-radius: 40px;
 }
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: white;
+}
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+main section {
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+main h2 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  color: rgb(232, 2, 131);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+main h3 {
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+main p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+}
+.main-img {
+  padding: 60px 30px;
+}
 footer {
   font-family: Poppins;
   color: white;
@@ -61,7 +102,7 @@ footer {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 1)
     ),
-    url("../imiges/hero3.jpg");
+    url("../imiges/footer-img.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -69,12 +110,12 @@ footer {
 section {
   max-width: 1400px;
   margin: O auto;
-  padding: 20px 40px;
+  padding: 40px 60px;
 }
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 40px;
 }
 footer h3 {
   font-size: 20px;
@@ -127,6 +168,9 @@ footer i {
     font-size: 12px;
   }
   .grid {
+    grid-template-columns: 1fr;
+  }
+  .grid-1 {
     grid-template-columns: 1fr;
   }
 }
