@@ -8,7 +8,7 @@
   );
 }
 header {
-  max-width: 1500px;
+  max-width: 1400px;
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
     url("../imiges/hero.jpg");
@@ -40,25 +40,67 @@ header h3 {
 }
 header a {
   font-family: Roboto;
+  text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
   color: white;
   background-color: rgb(232, 2, 131);
-  padding: 10px 20px;
-  border-radius: 20px;
+  padding: 16px 32px;
+  border-radius: 40px;
 }
 footer {
+  font-family: Poppins;
   color: white;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 20;
+  background-color: rgba(0, 0, 0);
+  padding: 60px 20px;
+  background-image: linear-gradient(
+      240deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 1)
+    ),
+    url("../imiges/hero3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+section {
+  max-width: 1400px;
+  margin: O auto;
+  padding: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+footer h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 100;
+  font-family: Playfair Display;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-my-inhumation p {
+  text-align: justify;
+}
+
 footer a {
-  font-family: Roboto;
-  font-size: 14px;
   color: rgb(232, 2, 131);
+  text-decoration: none;
 }
+.footer-inhumations {
+  display: grid;
+}
+
 @media (max-width: 900px) {
   header h1 {
     font-size: 48px;
