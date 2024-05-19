@@ -31,6 +31,7 @@ header h1 {
   font-weight: 900;
   color: rgb(232, 2, 131);
   letter-spacing: 5px;
+  margin-bottom: 40px;
 }
 
 header h2 {
@@ -38,6 +39,7 @@ header h2 {
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
+  line-height: 48px;
 }
 
 header h3 {
@@ -62,7 +64,7 @@ a {
   background-color: rgb(232, 2, 131);
   padding: 16px 32px;
   border-radius: 40px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 main {
@@ -105,7 +107,7 @@ main h3 {
   text-align: center;
 }
 
-h4 {
+main h4 {
   font-family: Roboto;
   font-size: 26px;
   font-style: normal;
@@ -251,6 +253,10 @@ footer i {
 }
 
 @media (max-width: 900px) {
+  .container {
+    max-width: 100%;
+    overflow-y: auto;
+  }
   header h1 {
     font-size: 48px;
   }
@@ -262,20 +268,52 @@ footer i {
   header h3 {
     font-size: 12px;
   }
+  main {
+    max-width: 100%;
+  }
+  main h2 {
+    font-size: 22spx;
+  }
+  main h3 {
+    font-size: 28px;
+  }
 
+  main h4 {
+    font-size: 20px;
+  }
+
+  main h5 {
+    font-size: 26px;
+  }
+  main p {
+    font-size: 12spx;
+  }
+
+  .main-text {
+    max-width: 100%;
+  }
+  .song-card {
+    max-width: 100%;
+  }
+  .main-img {
+    max-width: 100%;
+  }
   .grid {
     grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .grid-1 {
     grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .grid-3-columns {
     grid-template-columns: 1fr;
+    gap: 10px;
   }
-
   .grid-3-columns-3-rows {
     grid-template-columns: 1fr;
+    gap: 10px;
   }
 }
